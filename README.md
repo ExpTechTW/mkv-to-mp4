@@ -1,9 +1,13 @@
-# 模板
+# mkv-to-mp4
 <img alt="Discord" src="https://img.shields.io/discord/926545182407688273">
 
 ------
 
-- 這是一個 ExpTech Github 模板
+- 基於 ffmpeg 的 簡易 `mkv` 轉換 `mp4` 工具
+- 點擊 [下載](https://github.com/ExpTechTW/mkv-to-mp4/releases/download/1.0.0/convert.zip)
+- 解壓縮 `zip`檔案
+- 將 欲轉換的 `mkv`文件 置於資料夾中
+- 點擊 `convert.bat`
 
 ## 索引
 - [貢獻者](#貢獻者)
