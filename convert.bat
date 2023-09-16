@@ -1,6 +1,6 @@
 @echo off
 TITLE CONVERT ALL FILE VIDEO TO MP4
-set PATH=%PATH%;.\ffmpeg
+set PATH=%PATH%;.\ffmpeg\bin
 set i = 1
 
 for %%f in (*.mkv) do ffmpeg -i "%%f" -map 0 -vcodec copy -acodec copy "%%~nf.mp4"
